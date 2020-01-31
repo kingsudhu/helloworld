@@ -26,6 +26,6 @@ public class WelcomeController {
 		
 		val span = jaegerTracerService.span("test helo world");
         jaegerTracerService.restFinish(span);
-		return "Hello FUCKING World!!!"; //"application/json" mean this is a text not a redirect
+		return "Hello webhook World!!!"; //"application/json" mean this is a text not a redirect
 	}
 }
